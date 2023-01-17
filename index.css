@@ -1,0 +1,96 @@
+#hero {
+    height: 800px;
+    background-image: url(/images/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#island {
+    background-color: rgba(51, 47, 47, 0.8);
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 50px 0;
+    box-shadow: 2px 4px 8px rgb(63, 62, 62);
+    position: relative;
+    top: 200px;
+}
+
+#hero h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    font-family: "Rilway", sans-serif;
+    margin: 0;
+}
+
+#hero p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#button {
+    background-color: yellow;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgb(68, 66, 66);
+}
+
+#button:hover {
+    background-color: rgb(255, 255, 106);
+}
+
+#highlights {
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, rgb(195, 234, 236), rgb(133, 209, 213));
+    padding: 24px;
+}
+
+#highlights strong {
+    color: rgb(36, 166, 132);
+}
+
+.destinations {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    list-style: none;
+    justify-content: center;
+}
+
+.destination {
+    margin: 0 20px;
+    width: 100%;
+    
+    
+}
+
+#highlights h2 {
+    font-size: 40px;
+    color: rgb(52, 52, 52);
+    margin: 24px 0;
+}
+
+.destination p {
+    font-size: 24px;
+    color: rgb(94, 94, 94);
+    margin: 20px 0;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px gray;
+    border-radius: 10px;
+    object-fit: cover;
+}
